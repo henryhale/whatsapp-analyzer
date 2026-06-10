@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Generated training artifacts
+models/*.joblib

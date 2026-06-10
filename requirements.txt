@@ -1,0 +1,19 @@
+# NO PyTorch — deliberately.
+#
+# The training scripts are pure scikit-learn and the language model runs on
+# ONNX Runtime, which keeps this project small enough to deploy on Streamlit
+# Community Cloud. Adding torch would blow the memory budget before the app
+# loads a single message. Please keep it out.
+
+streamlit>=1.40
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+plotly>=5.24
+joblib>=1.4
+
+# Optional: the local language model (summaries, topic names, chat answers).
+# The app detects these at startup and runs retrieval-only if absent.
+optimum[onnxruntime]>=1.23
+transformers>=4.45
+huggingface-hub>=0.26
