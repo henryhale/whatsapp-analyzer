@@ -1,0 +1,6 @@
+# Never commit real chat exports — they contain other people's messages
+# and phone numbers.
+*
+!.gitignore
+!sample_chat.txt
+!sample_chat_ios.txt
