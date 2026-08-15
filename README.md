@@ -7,7 +7,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![ONNX Runtime](https://img.shields.io/badge/ONNX-Runtime-005CED?logo=onnx&logoColor=white)](https://onnxruntime.ai/)
 
-![](./media/overview.png)
+[![](./media/overview.png)](https://whatsapp-analyzer-f6ppmgg6eypypgixnnczjk.streamlit.app/)
 
 <br>
 <br>
@@ -21,6 +21,10 @@ analysis, authorship detection, summaries, and grounded chat search.
 - Processes chat exports in memory without saving them.
 - Works without PyTorch or a language model.
 - Includes a synthetic sample chat for a quick demo.
+
+## Run online
+
+Launch live demo: [https://whatsapp-analyzer-f6ppmgg6eypypgixnnczjk.streamlit.app/](https://whatsapp-analyzer-f6ppmgg6eypypgixnnczjk.streamlit.app/) 🚀
 
 ## Run locally
 
