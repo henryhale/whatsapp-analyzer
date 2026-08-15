@@ -1,9 +1,18 @@
+<div align=center>
+
 # WhatsApp Group Chat Analyzer
 
 [![Last commit](https://img.shields.io/github/last-commit/henryhale/whatsapp-analyzer)](https://github.com/henryhale/whatsapp-analyzer/commits)
 [![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![ONNX Runtime](https://img.shields.io/badge/ONNX-Runtime-005CED?logo=onnx&logoColor=white)](https://onnxruntime.ai/)
+
+![](./media/overview.png)
+
+<br>
+<br>
+</div>
+
 
 Explore a WhatsApp group export with local statistics, topic and sentiment
 analysis, authorship detection, summaries, and grounded chat search.
